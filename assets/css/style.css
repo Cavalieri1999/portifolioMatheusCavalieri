@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
     background-color: #1F242B;
 }
 
@@ -106,7 +109,7 @@ header{
 a{
     text-decoration: 0;
     color: #fff;
-    background-color: #29955F;
+    background-color: transparent;
     float: right;
     margin: 1rem;
 }
@@ -114,7 +117,15 @@ a{
     background-color: #29955F;
     float: right;
     /* border: solid; */
-    height: 93.7vh;
+    height: 100vh;
     width: 40%;
-    
+}
+.dark {
+    background-color: #43ee99;
+}
+.dark .left{
+    background-color: #1f252c;
+}
+.dark .menu {
+    background-color: #1F242B;
 }
