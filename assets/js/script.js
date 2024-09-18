@@ -1,3 +1,4 @@
+//configurando modo claro e modo escuro
 const documento = document.body
 const inputMode = document.querySelector('.input-mode');
 
