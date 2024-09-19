@@ -91,44 +91,44 @@
     height: 0;
 }
 
-.dark-mode {
-    margin: 1rem;
+label {
+    margin: 0.2rem;
 }
 
 .menu {
     width: 40%;
-    background-color: #1F242B;
+    background-color: #EDFBFD;
     transition: 0.5s;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #37C67E;
+    background-color: #66CAC5;
     transition: 0.5s;
 }
 
 a {
     text-decoration: 0;
-    color: #fff;
+    color: #388581;
     background-color: transparent;
     float: right;
     margin: 1rem;
 }
 
 .rigth {
-    background-color: #1F242B;
+    background-color: #EDFBFD;
     float: right;
     /* border: solid; */
-    height: 100vh;
+     height: 93vh;
     width: 40%;
     transition: 0.5s;
 }
 
 .principal {
-    background-color: #37C67E;
+    background-color: #66CAC5;
     width: 60%;
-    height: 100vh;
+    height: 93vh;
     transition: 0.5s;
 }
 
@@ -150,6 +150,7 @@ a {
 
 .homePage {
     display: flex;
+    height: 70vh;
 }
 
 .apresentacao {
@@ -179,4 +180,80 @@ a {
 
 .dark .saudacao {
     color: #37C67E;
+}
+
+.devWeb {
+    border: solid 1px #EDFBFD;
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: linear 0.1s;
+    margin: 2rem 1.5rem;
+}
+
+.devWeb p {
+    text-align: center;
+    margin-left: 1%;
+}
+
+.seta {
+    background-color: #EDFBFD;
+    width: 20%;
+    height: 5vh;
+    justify-content: center;
+    display: flex;
+}
+
+.seta svg {
+    width: 60%;
+    fill: #1F242B;
+}
+.devWeb:hover {
+    background-color: #EDFBFD;
+  }
+
+.dark .devWeb{
+    border: solid 1px #37C67E;
+}
+.dark .seta{
+    background-color: #37C67E;
+}
+.dark .devWeb p{
+    color: #37C67E;
+}
+
+
+/* Css parte de skills*/
+
+.skills{
+    width: 100%;
+    margin-top: 13rem;
+    background-color: #66CAC5;
+    height: 100vh;
+}
+.dark .skills{
+    background-color: #1F242B;
+}
+.skills h3{
+    color: white;
+    margin: 3rem;
+    font-size: 3em ;
+}
+.frontEnd{
+    display: flex;
+}
+.habilidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 252px;
+    height: 232px;
+}
+.habilidade h4{
+    width: 232px;
+    text-align: center;
+    color: white;
+    border: solid;
 }
