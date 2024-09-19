@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+/* CSS HOMEPAGE */
 
 /* switch settings 👇 */
 
@@ -16,10 +17,14 @@
     --circle-diameter: 32px;
     --circle-bg: rgb(232, 89, 15);
     --circle-inset: calc((var(--circle-diameter) - var(--switch-height)) / 2);
+    position: fixed;
+    margin: 1rem;
 }
+
 
 .ui-switch input {
     display: none;
+
 }
 
 .slider {
@@ -216,12 +221,19 @@ a {
 
 .dark .devWeb{
     border: solid 1px #37C67E;
+    
 }
 .dark .seta{
     background-color: #37C67E;
 }
 .dark .devWeb p{
     color: #37C67E;
+}
+
+.dark .devWeb :hover{
+    background-color: #37C67E;
+    color: #1F242B;
+
 }
 
 
@@ -231,7 +243,8 @@ a {
     width: 100%;
     margin-top: 13rem;
     background-color: #66CAC5;
-    height: 100vh;
+    height: 120vh;
+    transition: linear 0.5s;
 }
 .dark .skills{
     background-color: #1F242B;
@@ -250,10 +263,40 @@ a {
     align-items: center;
     width: 252px;
     height: 232px;
+    margin: 4rem;
 }
 .habilidade h4{
     width: 232px;
     text-align: center;
     color: white;
-    border: solid;
+    margin: 1rem;
+    font-size: 2em;
+    transition: ease 0.s;
 }
+.dark .habilidade h4{
+    color: #37C67E;
+}
+.habilidade img{
+    width: 12rem;
+}
+.backFront{
+    color: #EDFBFD;
+    font-size:3em;
+    margin: 1rem 6rem;
+}
+.backEnd{
+    float: right;
+    margin-right: 10rem;
+}
+.skillsBack{
+    display: flex;
+}
+.dark .backFront{
+    color:#37C67E;
+}
+.dark .skills h3{
+    color: #37C67E;
+}
+::-webkit-scrollbar {
+    width: 0px; /* Largura da barra de rolagem */
+  }
