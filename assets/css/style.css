@@ -201,6 +201,9 @@ a {
 .devWeb p {
     text-align: center;
     margin-left: 1%;
+    height: 5vh;
+    width: 100%;
+    padding: 4% 0;
 }
 
 .seta {
@@ -233,7 +236,6 @@ a {
 .dark .devWeb :hover{
     background-color: #37C67E;
     color: #1F242B;
-
 }
 
 
@@ -244,7 +246,7 @@ a {
     margin-top: 13rem;
     background-color: #66CAC5;
     height: 120vh;
-    transition: linear 0.5s;
+   
 }
 .dark .skills{
     background-color: #1F242B;
@@ -297,6 +299,43 @@ a {
 .dark .skills h3{
     color: #37C67E;
 }
+a[href="#skills"] {
+    transition: all 0.5s ease-in-out;
+  }
+#skills{
+    transition: all 0.5s ease-in-out;
+}
 ::-webkit-scrollbar {
     width: 0px; /* Largura da barra de rolagem */
   }
+  html {
+    scroll-behavior: smooth;
+  }
+
+/* Css tela de projetos */
+.projetos{
+    height: 170vh;
+    background-color: #66CAC5;
+    border: solid #66CAC5;
+    
+}
+.dark .projetos{
+    background-color: #1F242B;
+}
+.titulo{
+    margin: 4%;
+}
+.titulo h1{
+    font-size: 4em;
+    color: white;
+}
+.projeto{
+    height: 30vh;
+    margin: 1rem 0;
+}
+.projeto .preview{
+    border: solid;
+    height: 30vh;
+    width: 20%;
+    margin: 2% 2%;
+}
