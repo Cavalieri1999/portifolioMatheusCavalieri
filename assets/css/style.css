@@ -125,16 +125,18 @@ a {
     background-color: #EDFBFD;
     float: right;
     /* border: solid; */
-     height: 93vh;
+    height: 104vh;
     width: 40%;
     transition: 0.5s;
+
 }
 
 .principal {
     background-color: #66CAC5;
     width: 60%;
-    height: 93vh;
+    height: 104vh;
     transition: 0.5s;
+    /* border: solid; */
 }
 
 .dark header {
@@ -243,7 +245,7 @@ a {
 
 .skills{
     width: 100%;
-    margin-top: 13rem;
+    margin-top: 19rem;
     background-color: #66CAC5;
     height: 120vh;
    
@@ -253,7 +255,7 @@ a {
 }
 .skills h3{
     color: white;
-    margin: 3rem;
+    margin: 0 4rem;
     font-size: 3em ;
 }
 .frontEnd{
@@ -284,7 +286,7 @@ a {
 .backFront{
     color: #EDFBFD;
     font-size:3em;
-    margin: 1rem 6rem;
+    margin: 0.5rem 6rem;
 }
 .backEnd{
     float: right;
@@ -338,4 +340,58 @@ a[href="#skills"] {
     height: 30vh;
     width: 20%;
     margin: 2% 2%;
+}
+
+/* Tela de contato */
+
+.contato{
+    height: 70vh;
+    width: 100%;
+    background-color: #66CAC5;
+    transition: ease-in-out 0.5s;
+}
+form{
+    width: 100%;
+    height: 40vh;
+    padding: 1rem;
+}
+.contate-me{
+    border: solid #EDFBFD 1px;
+    width: 29%;
+    margin: 0 35%;
+}
+form input{
+    outline: none;
+    border: none;
+    width: 40%;
+    height: 5vh;
+    border-radius: 10px;
+    padding-left: 2%;
+}
+form div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:4%;
+    
+}
+.contato h3{
+    color: #EDFBFD;
+    font-size: 2.5em;
+    margin: 0 25%;
+}
+.contato h4{
+    width: 100%;
+    margin: 0.5% 0.7%;
+    color: #EDFBFD;
+    
+}
+.dark .contato{
+    background-color: #1F242B;
+}
+.mensagem{
+    width: 100%;
+    height: 15vh;
+}
+.submit{
+    margin-left:25%;
 }
