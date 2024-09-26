@@ -318,11 +318,12 @@ a[href="#skills"] {
 .projetos{
     height: 170vh;
     background-color: #66CAC5;
-    border: solid #1F242B;
+    border: solid #66CAC5;
     
 }
 .dark .projetos{
     background-color: #1F242B;
+    border: solid #1F242B;
 }
 .titulo{
     margin: 4%;
@@ -380,14 +381,26 @@ form div{
     
 }
 .contato h3{
-    color: #EDFBFD;
+    color: #00ffc8;
+    font-weight: bold;
     font-size: 2.5em;
     margin: 0 25%;
 }
+.dark .contato h3{
+    color: #37C67E;
+}
+.dark input,
+.dark textarea{
+    background-color: #36404e;
+}
+.dark .submit{
+    background-color: #37C67E;
+}
+
 .contato h4{
     width: 100%;
     margin: 0.5% 0.7%;
-    color: #EDFBFD;
+    color:#fff;
     
 }
 .dark .contato{
@@ -396,7 +409,20 @@ form div{
 .mensagem{
     width: 100%;
     height: 15vh;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 2%;
+    resize: none;
 }
 .submit{
     margin-left:25%;
+    background-color: #00ffc8;
+    transition: 0.5s;
 }
+
+.submit:hover{
+    background-color:  #37ffd4;
+    transform: scale(1.1);
+}
+
