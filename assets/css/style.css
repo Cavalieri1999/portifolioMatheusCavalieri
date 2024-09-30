@@ -105,6 +105,9 @@ label {
     background-color: #EDFBFD;
     transition: 0.5s;
 }
+body{
+    background-color: #1F242B;
+}
 
 header {
     display: flex;
@@ -134,7 +137,7 @@ a {
 .principal {
     background-color: #66CAC5;
     width: 60%;
-    height: 104vh;
+    height: 107vh;
     transition: 0.5s;
     /* border: solid; */
 }
@@ -291,9 +294,12 @@ a {
 .backEnd{
     float: right;
     margin-right: 10rem;
+    
+
 }
 .skillsBack{
     display: flex;
+    justify-content: space-between;
 }
 .dark .backFront{
     color:#37C67E;
@@ -458,5 +464,27 @@ footer h1{
 .dark footer h1,
 .dark footer a{
     color: #37C67E;
+}
+
+
+
+@media (max-width: 1549px){
+    .devWeb{
+        width: 35%;
+    }
+    .principal,.rigth{
+        height: 108vh;
+    }
+}
+
+@media (max-width: 1521px){
+    .habilidade {
+        width: 12%;
+    }
+    .backEnd{
+        margin-right: 8rem;
+        width: 43rem;
+        /* border: solid; */
+    }
 }
 
