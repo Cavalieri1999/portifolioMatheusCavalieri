@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 /* CSS HOMEPAGE */
 
 /* switch settings 👇 */
@@ -103,9 +104,10 @@ label {
 .menu {
     width: 40%;
     background-color: #EDFBFD;
-    transition: 0.5s;
+    transition: ease-in-out 0.5s;
 }
-body{
+
+body {
     background-color: #1F242B;
 }
 
@@ -113,7 +115,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #66CAC5;
-    transition: 0.5s;
+    transition: ease-in-out 0.5s;
 }
 
 a {
@@ -130,15 +132,14 @@ a {
     /* border: solid; */
     height: 104vh;
     width: 40%;
-    transition: 0.5s;
-
+    transition: ease-in-out 0.5s;
 }
 
 .principal {
     background-color: #66CAC5;
     width: 60%;
     height: 107vh;
-    transition: 0.5s;
+    transition: ease-in-out 0.5s;
     /* border: solid; */
 }
 
@@ -199,16 +200,18 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    transition: linear 0.1s;
+    transition: ease-in-out 0.1s;
     margin: 2rem 1.5rem;
 }
 
 .devWeb p {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 1%;
     height: 5vh;
     width: 100%;
-    padding: 4% 0;
+
 }
 
 .seta {
@@ -223,22 +226,25 @@ a {
     width: 60%;
     fill: #1F242B;
 }
+
 .devWeb:hover {
     background-color: #EDFBFD;
-  }
-
-.dark .devWeb{
-    border: solid 1px #37C67E;
-    
 }
-.dark .seta{
+
+.dark .devWeb {
+    border: solid 1px #37C67E;
+
+}
+
+.dark .seta {
     background-color: #37C67E;
 }
-.dark .devWeb p{
+
+.dark .devWeb p {
     color: #37C67E;
 }
 
-.dark .devWeb :hover{
+.dark .devWeb :hover {
     background-color: #37C67E;
     color: #1F242B;
 }
@@ -246,25 +252,29 @@ a {
 
 /* Css parte de skills*/
 
-.skills{
+.skills {
     width: 100%;
     margin-top: 19rem;
     background-color: #66CAC5;
     height: 120vh;
-   
+
 }
-.dark .skills{
+
+.dark .skills {
     background-color: #1F242B;
 }
-.skills h3{
+
+.skills h3 {
     color: white;
     margin: 0 4rem;
-    font-size: 3em ;
+    font-size: 3em;
 }
-.frontEnd{
+
+.frontEnd {
     display: flex;
 }
-.habilidade{
+
+.habilidade {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,107 +282,130 @@ a {
     height: 232px;
     margin: 4rem;
 }
-.habilidade h4{
+
+.habilidade h4 {
     width: 232px;
     text-align: center;
     color: white;
     margin: 1rem;
     font-size: 2em;
-    transition: ease 0.s;
+    transition: ease-in-out 0.s;
 }
-.dark .habilidade h4{
+
+.dark .habilidade h4 {
     color: #37C67E;
 }
-.habilidade img{
+
+.habilidade img {
     width: 12rem;
 }
-.backFront{
+
+.backFront {
     color: #EDFBFD;
-    font-size:3em;
+    font-size: 3em;
     margin: 0.5rem 6rem;
 }
-.backEnd{
+
+.backEnd {
     float: right;
     margin-right: 10rem;
-    
+
 
 }
-.skillsBack{
+
+.skillsBack {
     display: flex;
     justify-content: space-between;
 }
-.dark .backFront{
-    color:#37C67E;
-}
-.dark .skills h3{
+
+.dark .backFront {
     color: #37C67E;
 }
-a[href="#skills"] {
-    transition: all 0.5s ease-in-out;
-  }
-#skills{
-    transition: all 0.5s ease-in-out;
+
+.dark .skills h3 {
+    color: #37C67E;
 }
+
+a[href="#skills"] {
+    transition: 0.5s ease-in-out;
+}
+
+#skills {
+    transition: 0.5s ease-in-out;
+}
+
 ::-webkit-scrollbar {
-    width: 0px; /* Largura da barra de rolagem */
-  }
-  html {
+    width: 0px;
+    /* Largura da barra de rolagem */
+}
+
+html {
     scroll-behavior: smooth;
-  }
+}
 
 /* Css tela de projetos */
-.projetos{
+.projetos {
     height: 170vh;
     background-color: #66CAC5;
     border: solid #66CAC5;
-    
+    transition: ease-in-out 0.5s;
+
 }
-.dark .projetos{
+
+.dark .projetos {
     background-color: #1F242B;
     border: solid #1F242B;
 }
-.titulo{
+
+.titulo {
     margin: 4%;
 }
-.titulo h1{
+
+.titulo h1 {
     font-size: 4em;
     color: white;
+    margin: 0.5em 0;
 }
-.projeto{
+
+.projeto {
     height: 30vh;
     margin: 1rem 0;
 }
-.projeto .preview{
+
+.projeto .preview {
     border: solid;
     height: 30vh;
     width: 20%;
-    margin: 2% 2%;
+    margin: 1% 2%;
 }
 
-.dark .titulo h1{
+.dark .titulo h1 {
     color: #37C67E;
-    transition: ease 0.5s;
+    transition: ease-in-out 0.5s;
 }
 
 /* Tela de contato */
 
-.contato{
+.contato {
     height: 70vh;
     width: 100%;
     background-color: #66CAC5;
     transition: ease-in-out 0.5s;
 }
-form{
+
+form {
     width: 100%;
     height: 40vh;
     padding: 1rem;
 }
-.contate-me{
+
+.contate-me {
     border: solid #EDFBFD 1px;
     width: 29%;
     margin: 0 35%;
 }
-form input{
+
+form input {
     outline: none;
     border: none;
     width: 40%;
@@ -380,39 +413,50 @@ form input{
     border-radius: 10px;
     padding-left: 2%;
 }
-form div{
+
+form div {
     display: flex;
     justify-content: space-between;
-    margin-bottom:4%;
-    
+    margin-bottom: 4%;
+
 }
-.contato h3{
+
+.contato h3 {
     color: #00ffc8;
     font-weight: bold;
     font-size: 2.5em;
     margin: 0 25%;
 }
-.dark .contato h3{
+
+.dark .contato h3 {
     color: #37C67E;
 }
+
 .dark input,
-.dark textarea{
+.dark textarea {
     background-color: #36404e;
 }
-.dark .submit{
+
+.dark .submit {
     background-color: #37C67E;
 }
 
-.contato h4{
+.dark .submit {
+    background-color: #02d169;
+}
+
+.contato h4 {
     width: 100%;
     margin: 0.5% 0.7%;
-    color:#fff;
-    
+    color: #fff;
+
 }
-.dark .contato{
+
+.dark .contato {
     background-color: #1F242B;
 }
-.mensagem{
+
+.mensagem {
     width: 100%;
     height: 15vh;
     border: none;
@@ -421,70 +465,173 @@ form div{
     padding: 2%;
     resize: none;
 }
-.submit{
-    margin-left:25%;
+
+.submit {
+    margin-left: 25%;
     background-color: #00ffc8;
-    transition: 0.5s;
+    transition: ease-in-out 0.5s;
 }
 
-.submit:hover{
-    background-color:  #37ffd4;
+.submit:hover {
+    background-color: #37ffd4;
     transform: scale(1.1);
 }
-footer{
+
+footer {
     height: 40vh;
     background-color: #66CAC5;
     display: flex;
     flex-direction: column;
-    transition: 0.5s;
+    transition: ease-in-out 0.5s;
 }
-footer a{
+
+footer a {
     margin-top: 7%;
     font-size: 1em;
     /* border: solid; */
     text-align: center;
 }
-footer div{
+
+footer div {
     width: 10%;
     display: flex;
     text-align: center;
     margin: 1em 43%;
 }
-footer div img{
+
+footer div img {
     width: 3em;
     height: 3em;
 }
-footer h1{
+
+footer h1 {
     text-align: center;
     margin: 2rem;
 }
-.dark footer{
+
+.dark footer {
     background-color: #1F242B;
 }
+
 .dark footer h1,
-.dark footer a{
+.dark footer a {
     color: #37C67E;
 }
 
 
 
-@media (max-width: 1549px){
-    .devWeb{
+@media (max-width: 1549px) {
+    .devWeb {
         width: 35%;
     }
-    .principal,.rigth{
+
+    .principal,
+    .rigth {
         height: 108vh;
     }
 }
 
-@media (max-width: 1521px){
+@media (max-width: 1521px) {
     .habilidade {
         width: 12%;
     }
-    .backEnd{
+
+    .backEnd {
         margin-right: 8rem;
         width: 43rem;
         /* border: solid; */
     }
 }
 
+@media (max-width: 1329px) {
+    .devWeb {
+        width: 42%;
+    }
+}
+
+@media (max-width: 1107px) {
+    .devWeb {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1034px) {
+    .devWeb {
+        width: 50%;
+        font-size: 0.9em;
+        text-align: center;
+        height: 4vh;
+    }
+
+    .seta {
+        height: 4vh;
+    }
+
+    .rigth {
+        width: 44%;
+    }
+
+    .menu {
+        width: 42.3%;
+    }
+}
+
+@media (max-width: 964px) {
+    .rigth{
+        width: 49%;
+        float: right;
+    }
+    .menu{
+        width: 44.95%;
+    }
+}
+
+@media (max-width: 926px) {
+    .devWeb {
+        width: 60%;
+    }
+
+    .rigth {
+        width: 47%;
+    }
+
+    .menu {
+        width: 43.9%;
+    }
+
+}
+
+@media (max-width: 88px) {
+    .devWeb {
+        width: 65%;
+        text-align: center;
+    }
+
+    .rigth {
+        width: 47%;
+    }
+
+    .menu {
+        width: 43.9%;
+    }
+
+}
+
+@media (max-width: 863px) {
+    .devWeb {
+        width: 65%;
+        text-align: center;
+    }
+
+    .rigth {
+        width: 48%;
+    }
+
+    .menu {
+        width: 44.5%;
+    }
+
+}
+.preview img{
+    width: 100%;
+}

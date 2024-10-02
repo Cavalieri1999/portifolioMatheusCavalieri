@@ -10,3 +10,5 @@ inputMode.addEventListener('click', function(e){
         documento.classList.remove('dark')
     }
 })
+
+
