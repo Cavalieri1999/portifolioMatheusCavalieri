@@ -519,14 +519,9 @@ footer h1 {
 
 
 
-@media (max-width: 1549px) {
+@media (max-width: 1629px) {
     .devWeb {
         width: 35%;
-    }
-
-    .principal,
-    .rigth {
-        height: 108vh;
     }
 }
 
@@ -565,23 +560,20 @@ footer h1 {
     .seta {
         height: 4vh;
     }
-
-    .rigth {
-        width: 44%;
-    }
-
-    .menu {
-        width: 42.3%;
-    }
 }
 
-@media (max-width: 964px) {
-    .rigth{
-        width: 49%;
-        float: right;
+@media (max-width: 968px) {
+
+    .habilidade img {
+        width: 100%;
     }
-    .menu{
-        width: 44.95%;
+    .habilidade h4{
+        font-size: 1em;
+        border: solid;
+        width: 100%
+    }
+    .devWeb{
+        font-size: 0.7em;
     }
 }
 
@@ -589,31 +581,13 @@ footer h1 {
     .devWeb {
         width: 60%;
     }
-
-    .rigth {
-        width: 47%;
-    }
-
-    .menu {
-        width: 43.9%;
-    }
-
 }
 
-@media (max-width: 88px) {
+@media (max-width: 888px) {
     .devWeb {
         width: 65%;
         text-align: center;
     }
-
-    .rigth {
-        width: 47%;
-    }
-
-    .menu {
-        width: 43.9%;
-    }
-
 }
 
 @media (max-width: 863px) {
@@ -621,15 +595,6 @@ footer h1 {
         width: 65%;
         text-align: center;
     }
-
-    .rigth {
-        width: 48%;
-    }
-
-    .menu {
-        width: 44.5%;
-    }
-
 }
 .preview img{
     width: 100%;
