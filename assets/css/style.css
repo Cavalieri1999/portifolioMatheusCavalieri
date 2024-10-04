@@ -129,8 +129,7 @@ a {
 .rigth {
     background-color: #EDFBFD;
     float: right;
-    /* border: solid; */
-    height: 104vh;
+    height: 100vh;
     width: 40%;
     transition: ease-in-out 0.5s;
 }
@@ -247,6 +246,22 @@ a {
     background-color: #37C67E;
     color: #1F242B;
 }
+
+.img {
+    width: 26.5%;
+    margin: 0;
+    height: 40%;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 60%; 
+    transform: translate(-50%, -50%);
+    
+  }
+  .img img{
+    border: solid 1px;
+  }
+
 
 
 /* Css parte de skills*/
