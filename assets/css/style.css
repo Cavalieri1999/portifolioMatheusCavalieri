@@ -106,8 +106,10 @@ label {
     background-color: #EDFBFD;
     transition: ease-in-out 0.5s;
 }
-
-body {
+body{
+    background-color: #66CAC5;
+}
+.dark {
     background-color: #1F242B;
 }
 
@@ -133,7 +135,6 @@ a {
     width: 40%;
     transition: ease-in-out 0.5s;
 }
-
 .principal {
     background-color: #66CAC5;
     width: 60%;
@@ -248,7 +249,7 @@ a {
 }
 
 .img {
-    width: 26.5%;
+    width: 15%;
     margin: 0;
     height: 40%;
     padding: 0;
@@ -256,12 +257,11 @@ a {
     top: 50%;
     left: 60%; 
     transform: translate(-50%, -50%);
-    
-  }
-  .img img{
-    border: solid 1px;
   }
 
+  .img img{
+    border: solid 1px #00FFD4;
+  }
 
 
 /* Css parte de skills*/
@@ -359,7 +359,7 @@ html {
 
 /* Css tela de projetos */
 .projetos {
-    height: 170vh;
+    height: 200vh;
     background-color: #66CAC5;
     border: solid #66CAC5;
     transition: ease-in-out 0.5s;
@@ -381,16 +381,28 @@ html {
     margin: 0.5em 0;
 }
 
-.projeto {
-    height: 30vh;
-    margin: 1rem 0;
+.areaProj {
+   display: flex;
+   border: solid;
+   justify-content: center;
+   flex-direction: column;
 }
 
-.projeto .preview {
-    border: solid;
+.Imc{
+    background-image: url(/assets/img/calculadora\ de\ imc.png);
+}
+.list{
+    background-image: url(/assets/img/lista\ de\ tarefas.png);
+}
+.calc{
+    background-image: url(/assets/img/calculadora.png);
+}
+.preview{
     height: 30vh;
     width: 20%;
-    margin: 1% 2%;
+    background-size: cover;
+    margin: 1rem;
+    box-shadow: 10px 5px 5px black;
 }
 
 .dark .titulo h1 {
