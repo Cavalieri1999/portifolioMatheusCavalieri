@@ -268,7 +268,7 @@ a {
 
 .skills {
     width: 100%;
-    margin-top: 19rem;
+    margin-top: 17%;
     background-color: #66CAC5;
     height: 120vh;
 
@@ -359,9 +359,8 @@ html {
 
 /* Css tela de projetos */
 .projetos {
-    height: 200vh;
+    height: 135vh;
     background-color: #66CAC5;
-    border: solid #66CAC5;
     transition: ease-in-out 0.5s;
 
 }
@@ -370,20 +369,27 @@ html {
     background-color: #1F242B;
     border: solid #1F242B;
 }
+.div-proj{
+    display: flex;
+}
+.textos{
+    margin-left: 20%;
+    /* border: solid; */
+    width: 30%;
+}
 
 .titulo {
-    margin: 4%;
+    margin: 5%;
 }
 
 .titulo h1 {
     font-size: 4em;
     color: white;
-    margin: 0.5em 0;
+    margin: 0.em 0;
 }
 
 .areaProj {
    display: flex;
-   border: solid;
    justify-content: center;
    flex-direction: column;
 }
@@ -405,7 +411,7 @@ html {
     box-shadow: 10px 5px 5px black;
 }
 
-.dark .titulo h1 {
+.dark .titulo h1 { 
     color: #37C67E;
     transition: ease-in-out 0.5s;
 }
