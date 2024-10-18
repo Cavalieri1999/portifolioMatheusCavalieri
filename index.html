@@ -46,6 +46,7 @@
                     <h1 class="sobrenome">
                         Cavalieri
                     </h1>
+
                     <div class="devWeb">
                         <p>Desenvolvedor Web</p>
                         <div class="seta">
@@ -56,11 +57,12 @@
                             </svg>
                         </div>
                     </div>
+
                 </aside>
             </div>
-            <!-- <div class="img">
+            <div class="img">
                 <img src="/assets/img/imagem__3_-removebg-preview.png" alt="">
-            </div> -->
+            </div>
             <div class="rigth"></div>
         </section>
 
@@ -70,33 +72,70 @@
                 <h3>Skills</h3>
                 <h2 class="backFront">Front End</h2>
                 <div class="frontEnd">
-                    <div class="habilidade">
+                    <div class="habilidade html">
                         <img src="/assets/img/html.png" alt="">
                         <h4>HTML 5</h4>
                     </div>
-                    <div class="habilidade">
+                    <div class="habilidade css">
                         <img src="/assets/img/css-3 (1).png" alt="">
                         <h4>CSS 3</h4>
                     </div>
-                    <div class="habilidade">
+                    <div class="habilidade js">
                         <img src="/assets/img/js (1).png" alt="">
                         <h4>Java Script</h4>
                     </div>
-                    <div class="habilidade">
+                    <div class="habilidade figma">
                         <img src="/assets/img/figma (1).png" alt="">
                         <h4>UX/UI</h4>
                     </div>
                 </div>
             </div>
+            <dialog class="modalHTML">
+                HTML5 (HyperText Markup Language version 5) é a versão mais recente da linguagem de marcação usada para
+                estruturar e apresentar conteúdo na web. Ele introduziu novas funcionalidades, como suporte nativo a
+                multimídia (vídeo e áudio), elementos semânticos (como article, section, e header), e maior
+                interatividade por meio da integração com APIs do navegador, como o Canvas para gráficos.
+                Além disso, o HTML5 visa melhorar a acessibilidade, otimizar o carregamento de páginas e
+                eliminar a necessidade de plugins externos, como o Flash.
+                <button class="fechar">Fechar</button>
+            </dialog>
+            <dialog class="modalCss">
+
+                CSS (Cascading Style Sheets) é a linguagem usada para definir a aparência e o layout de páginas web. Ele
+                permite estilizar elementos HTML, controlando aspectos como cores, fontes, margens, espaçamentos,
+                tamanhos, e posicionamentos. Com o CSS, é possível criar layouts responsivos, ajustar a exibição para
+                diferentes dispositivos e resoluções, além de aplicar animações e transições. O CSS separa o conteúdo
+                (HTML) da apresentação, facilitando a manutenção e a reutilização de estilos em várias páginas de um
+                site.
+            </dialog>
+            <dialog class="modalJs">
+                JavaScript (JS) é uma linguagem de programação usada para adicionar interatividade e dinamismo a páginas
+                web. Com ele, é possível manipular elementos HTML e CSS em tempo real, responder a eventos do usuário
+                (como cliques e teclas), validar formulários, criar animações, e carregar dados de servidores sem
+                recarregar a página (usando AJAX). JavaScript é amplamente usado em conjunto com HTML e CSS para criar
+                experiências de usuário mais ricas e interativas na web.
+            </dialog>
+            <dialog class="modalFigma">
+                UX (User Experience) e UI (User Interface) são conceitos centrais no design de produtos digitais.
+                UX (Experiência do Usuário) se refere à qualidade da interação do usuário com um produto, serviço ou
+                sistema. Envolve todo o processo de design para garantir que o produto seja intuitivo, eficiente e
+                satisfatório de usar. O foco está na usabilidade, acessibilidade e na satisfação do usuário ao navegar
+                pelo sistema.
+                UI (Interface do Usuário) é a parte visual e interativa do design, ou seja, a interface que o usuário vê
+                e com a qual ele interage. Inclui elementos como botões, menus, ícones, cores e tipografia, garantindo
+                que o layout seja esteticamente agradável e funcional.
+                Enquanto o UX foca na experiência e funcionalidade, o UI está relacionado ao visual e à interação direta
+                com o produto.
+            </dialog>
             <div class="backEnd">
                 <h3 class="backFront">Back End</h3>
                 <div class="skillsBack">
-                    <div class="habilidade">
+                    <div class="habilidade cs">
                         <img src="/assets/img/do-sustenido.png" alt="">
                         <h4>C#</h4>
                     </div>
 
-                    <div class="habilidade">
+                    <div class="habilidade sql">
                         <img src="/assets/img/servidor-sql.png" alt="">
                         <h4>SQL</h4>
                     </div>
@@ -149,8 +188,8 @@
 
                 <form action="/">
                     <div>
-                        <input type="text" placeholder="Nome" required><input type="text" placeholder="Sobrenome"
-                            required>
+                        <input type="text" placeholder="Nome" required class="inputNome">
+                        <input type="text" placeholder="Sobrenome" class="inputSobrenome">
                     </div>
                     <div>
                         <input type="email" placeholder="E-mail" required>

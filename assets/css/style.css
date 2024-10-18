@@ -157,7 +157,13 @@ a {
 .dark .rigth {
     background-color: #37C67E;
 }
-
+dialog{
+    width: 25%;
+    height: 35vh;
+    background-color: transparent;
+    margin: 0.5rem;
+    border: transparent;
+}
 .dark .menu {
     background-color: #37C67E;
 }
@@ -179,12 +185,12 @@ a {
 
 .nome {
     color: #fff;
-    font-size: 4rem;
+    font-size: 4em;
 }
 
 .sobrenome {
     color: #1F242B;
-    font-size: 4rem;
+    font-size: 4em;
 }
 
 .dark .sobrenome {
@@ -213,7 +219,6 @@ a {
     margin-left: 1%;
     height: 5vh;
     width: 100%;
-
 }
 
 .seta {
@@ -235,7 +240,6 @@ a {
 
 .dark .devWeb {
     border: solid 1px #37C67E;
-
 }
 
 .dark .seta {
@@ -245,25 +249,32 @@ a {
 .dark .devWeb p {
     color: #37C67E;
 }
-
-.dark .devWeb :hover {
-    background-color: #37C67E;
-    color: #1F242B;
+.dark .devWeb p:hover{
+    color:#1F242B ;
 }
-
+.devWeb .seta:hover + p,
+.devWeb:hover p {
+    color: #1F242B; 
+}
+.dark .devWeb:hover {
+    color: #1F242B;
+    background-color: #37C67E;
+}
 .img {
-    width: 15%;
+    width: 35%;
     margin: 0;
-    height: 40%;
+    height: 45%;
     padding: 0;
     position: absolute;
     top: 50%;
     left: 60%; 
     transform: translate(-50%, -50%);
+    
   }
 
   .img img{
     border: solid 1px #00FFD4;
+    width: 100%;
   }
 
 
