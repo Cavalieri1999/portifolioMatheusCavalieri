@@ -13,7 +13,7 @@ inputMode.addEventListener('click', function (e) {
 
 var nome = documento.querySelector('.inputNome');
 var sobrenome = documento.querySelector('.inputSobrenome');
-var email = documento.querySelector('inputEmail');
+var email = documento.querySelector('.inputEmail');
 var mensagem = documento.querySelector('.mensagem')
 var telefone = documento.querySelector('.telefone');
 var submit = documento.querySelector('.submit')
@@ -43,12 +43,20 @@ telefone.addEventListener('input', () => {
 
 submit.addEventListener('click', () => {
     var erro = false;
-
-    if (!isNaN(nome.value)) {
+    if (!isNaN(nome.value || nome.value == "")) {
         console.log('O nome nao pode ser um numero');
+        nome.style.color = 'red'
         erro = true;
     }
-
+    if (!isNaN(sobrenome.value || nome.value == "")) {
+        console.log('O sobrenome nao pode ser um numero');
+        sobrenome.style.color = 'red'
+        erro = true;
+    }
+    if (email.value.length  <= 10) {
+        console.log('O email é muito curto')
+        erro = true;
+    }
     if (erro == true) {
         console.log('Ta com erro');
     }
@@ -76,7 +84,7 @@ html.addEventListener('click', () => {
     modalCss.close();
     modalJs.close();
     modalFigma.close();
-    
+
 });
 
 var modalCss = document.querySelector('.modalCss');

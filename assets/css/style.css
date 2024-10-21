@@ -163,7 +163,9 @@ dialog{
     background-color: transparent;
     margin: 0.5rem;
     border: transparent;
+    color: #fff;
 }
+
 .dark .menu {
     background-color: #37C67E;
 }
