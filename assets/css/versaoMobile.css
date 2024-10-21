@@ -1,0 +1,14 @@
+
+@media (max-width: 430px) {
+    
+    *{
+        font-size: 10px;
+    }
+    .linkNone{
+        display: none;
+    }
+    aside{
+        border: solid;
+    }
+    
+  }
