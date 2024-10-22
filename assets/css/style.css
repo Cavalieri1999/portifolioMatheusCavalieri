@@ -164,6 +164,7 @@ dialog{
     margin: 0.5rem;
     border: transparent;
     color: #fff;
+    outline: none;
 }
 
 .dark .menu {
@@ -302,6 +303,20 @@ dialog{
 
 .frontEnd {
     display: flex;
+}
+[data-anima]{
+    opacity: 0;
+    transition: 2s;
+}
+[data-anima="left"]{
+    transform: translate3d(-50px,0,0);
+}
+[data-anima="rigth"]{
+    transform: translate3d(50px,0,0);
+}
+.animacao{
+    opacity: 1;
+    transform: translate3d(0,0,0);
 }
 
 .habilidade {
@@ -523,6 +538,23 @@ form div {
 .submit:hover {
     background-color: #37ffd4;
     transform: scale(1.1);
+}
+.fotoDois img{
+    width: 15%;
+    border: solid 1px #EDFBFD;
+}
+
+.dark .fotoDois img{
+    border: solid #37C67E 1px;
+}
+
+.fotoDois{
+    /* border: solid; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 25%;
 }
 
 footer {

@@ -53,7 +53,7 @@ submit.addEventListener('click', () => {
         sobrenome.style.color = 'red'
         erro = true;
     }
-    if (email.value.length  <= 10) {
+    if (email.value.length <= 10) {
         console.log('O email é muito curto')
         erro = true;
     }
@@ -84,6 +84,8 @@ html.addEventListener('click', () => {
     modalCss.close();
     modalJs.close();
     modalFigma.close();
+    modalCs.close();
+    modalSql.close();
 
 });
 
@@ -95,6 +97,8 @@ css.addEventListener('click', () => {
     modalHtml.close();
     modalJs.close();
     modalFigma.close();
+    modalCs.close();
+    modalSql.close();
 });
 
 var modalJs = document.querySelector('.modalJs');
@@ -105,6 +109,8 @@ js.addEventListener('click', () => {
     modalHtml.close();
     modalJs.show();
     modalFigma.close();
+    modalCs.close();
+    modalSql.close();
 });
 
 
@@ -116,4 +122,51 @@ figma.addEventListener('click', () => {
     modalHtml.close();
     modalJs.close();
     modalFigma.show();
+    modalCs.close();
+    modalSql.close();
 });
+
+var modalCs = document.querySelector('.modalCs');
+var cs = document.querySelector('.cs')
+
+cs.addEventListener('click', () => {
+    modalCss.close();
+    modalHtml.close();
+    modalJs.close();
+    modalFigma.close();
+    modalCs.show();
+    modalSql.close();
+});
+
+var modalSql = document.querySelector('.modalSql');
+var sql = document.querySelector('.sql')
+
+sql.addEventListener('click', () => {
+    modalCss.close();
+    modalHtml.close();
+    modalJs.close();
+    modalFigma.close();
+    modalCs.close();
+    modalSql.show();
+});
+
+
+
+const target = document.querySelectorAll('[data-anima]')
+const animationClass = 'animacao';
+
+function animaScroll() {
+    const windowTop = window.pageYOffset + ((window.innerHeight * 3)/4);
+    target.forEach(function (element) {
+        if ((windowTop) > element.offsetTop) {
+            element.classList.add(animationClass);
+            console.log('funcionou aqui chefe')
+        }
+        else element.classList.remove(animationClass);
+    })
+}
+
+
+document.addEventListener('scroll', (e) => {
+    animaScroll();
+})
