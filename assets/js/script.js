@@ -54,7 +54,7 @@ submit.addEventListener('click', () => {
         erro = true;
     }
     if (email.value.length <= 10) {
-        console.log('O email é muito curto')
+        console.log('O email é muito curto');
         erro = true;
     }
     if (erro == true) {
