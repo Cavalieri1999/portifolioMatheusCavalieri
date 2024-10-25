@@ -168,10 +168,11 @@ dialog {
     width: 25%;
     height: 35vh;
     background-color: transparent;
-    margin: 0.5rem;
-    border: transparent;
+    margin: 0 6rem;
+    border: none;
     color: #fff;
     outline: none;
+    
 }
 
 .dark .menu {
@@ -339,6 +340,45 @@ dialog {
 .animacao-button{
     transform: translate3d(0, 25px, 0);
 }
+.download {
+    color: rgba(255, 255, 255, 0.692);
+    padding: 18px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.397);
+    background: rgba(255, 255, 255, 0.068);
+    overflow: hidden;
+    font-size: 0.9rem;
+    font-weight: 600;
+    gap: 8px;
+    border-radius: 5px;
+    margin: 5rem;
+    transition: 0.2s;
+    border: 1px solid transparent;
+    width: 3%;
+    height: 5rem;
+    border: solid;
+    margin-bottom: 5%;
+  }
+  
+  .download:hover {
+    border-color: rgba(255, 255, 255, 0.623);
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.144),
+      rgba(255, 255, 255, 0.247),
+      rgba(255, 255, 255, 0.39)
+    );
+    box-shadow: 0 6px rgba(255, 255, 255, 0.623);
+    transform: translateY(-6px);
+  }
+  
+  a:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+  
 
 .habilidade {
     display: flex;
@@ -461,6 +501,7 @@ html {
 
     background-color: rgba(0, 0, 0);
     color: white;
+    margin-top: 4%;
 }
 
 .btn-github:hover {
@@ -605,8 +646,13 @@ form div {
 .fotoDois img {
     width: 15%;
     border: solid 1px #EDFBFD;
+    
+    
 }
-
+.animacao {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
 .dark .fotoDois img {
     border: solid #37C67E 1px;
 }
@@ -617,7 +663,8 @@ form div {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 12px 25%;
+    transition: 2s;
+    margin: 1rem 25% 7%;
 }
 
 footer {
@@ -626,6 +673,8 @@ footer {
     display: flex;
     flex-direction: column;
     transition: ease-in-out 0.5s;
+    margin-top: 3%;
+    padding: bottom 5%;
 }
 
 footer a {
