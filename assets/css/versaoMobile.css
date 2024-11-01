@@ -57,6 +57,7 @@
         .preview {
             width: 40%;
         }
+        
 }
 
 @media (max-width: 1329px) {
@@ -70,10 +71,10 @@
         width: 45%;
     }
     .rigth {
-        height: auto;
+        height: 100vh;
     }
     .apresentacao{
-        margin: 6%;
+        margin: 18% 10%;
     }
     .contate-me{
         width: 69%;
@@ -94,17 +95,18 @@
         }
 }
 
-@media screen and(max-width: 1034px) {
+@media (max-width: 1042px) {
     .devWeb {
-        width: 50%;
+        width: 53%;
         font-size: 0.9em;
         text-align: center;
-        height: 4vh;
+        height: 6vh;
     }
 
     .seta {
-        height: 4vh;
+        height: 6vh;
     }
+
 }
 
 @media (max-width: 968px) {
@@ -115,7 +117,6 @@
 
     .habilidade h4 {
         font-size: 1em;
-        /* border: solid; */
         width: 100%
     }
 
@@ -127,9 +128,6 @@
 @media screen and (max-width: 926px) {
     .devWeb {
         width: 60%;
-    }
-    .rigth {
-        height: auto;
     }
     .apresentacao{
         margin: 6%;
@@ -183,7 +181,7 @@
     }
     .apresentacao{
         text-align: center;
-        margin-top: 0 10% 0 0;
+        margin: 40% 0 0 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -196,16 +194,16 @@
     }
     .img2 {
         display: block;
-        width: 100%;
-        margin: 0;
+        width: 75%;
+
         height: 45%;
         padding: 0;
-        margin-top: 100%;
+        margin-top: 5%;
         margin-left: 50%;
         transform: translate(-50%, -50%);
     }
     .devWeb{
-        margin-top: -10%;
+        margin-top: 10%;
     }
     
     .img2 img {

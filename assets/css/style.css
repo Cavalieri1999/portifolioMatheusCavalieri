@@ -358,12 +358,14 @@ dialog {
     margin: 5rem;
     transition: 0.2s;
     border: 1px solid transparent;
-    width: 3%;
+    width: 5rem;
     height: 5rem;
     border: solid;
     margin-bottom: 5%;
   }
-  
+  .download svg{
+    width: 4rem;
+  }
   .download:hover {
     border-color: rgba(255, 255, 255, 0.623);
     background: linear-gradient(
