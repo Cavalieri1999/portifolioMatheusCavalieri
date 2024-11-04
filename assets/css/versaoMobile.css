@@ -239,8 +239,7 @@
 
         .img2 {
             display: block;
-            width: 40%;
-            border: solid 1px #00FFD4;
+            width: 47%;
             height: 45%;
             padding: 0;
             margin: 16% 50% 0 50%;
@@ -253,6 +252,7 @@
 
         .img2 img {
             width: 100%;
+            border: solid 1px #00FFD4;
         }
 
         .homePage {
