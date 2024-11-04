@@ -240,16 +240,16 @@
                     projetos
                     ou enviar feedbacks, estou aqui para ajudar!</h4>
 
-                <form action="/">
+                <form action="https://formspree.io/f/xyzyeajn" method="POST">
                     <div>
-                        <input type="text" placeholder="Nome" required class="inputNome">
-                        <input type="text" placeholder="Sobrenome" class="inputSobrenome">
+                        <input type="text" placeholder="Nome" required class="inputNome" name="iNome">
+                        <input type="text" placeholder="Sobrenome" class="inputSobrenome" name="iSobreNome">
                     </div>
                     <div>
-                        <input type="email" placeholder="E-mail" required class="inputEmail">
-                        <input type="tel" placeholder="Telefone (Opcional)" class="telefone">
+                        <input type="email" placeholder="E-mail" required class="inputEmail" name="iEmail">
+                        <input type="tel" placeholder="Telefone (Opcional)" class="telefone" name="iTelefone">
                     </div>
-                    <div><textarea class="mensagem" placeholder="Mensagem" required></textarea></div>
+                    <div><textarea class="mensagem" placeholder="Mensagem" required name="iMensagem"></textarea></div>
                     <input type="submit" value="Enviar Mensagem" class="submit">
                 </form>
             </div>
