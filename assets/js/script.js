@@ -1,15 +1,32 @@
 //configurando modo claro e modo escuro
-const documento = document.body
-const inputMode = document.querySelector('.input-mode');
+var modeSalvo = localStorage.getItem('mode')
 
-inputMode.addEventListener('click', function (e) {
-    if (inputMode.checked === true) {
-        documento.classList.toggle('dark')
-    }
-    else {
-        documento.classList.remove('dark')
+
+const documento = document.body;
+const inputMode = document.querySelector('.input-mode');
+var modeSalvo = localStorage.getItem('mode'); // Obtém o valor salvo
+
+// Convertendo o valor de 'modeSalvo' para booleano
+if (modeSalvo === 'true') {
+    documento.classList.add('dark'); // Adiciona o modo escuro se o valor for 'true'
+    inputMode.checked = true; // Marca o checkbox como ativo
+} else {
+    documento.classList.remove('dark'); // Caso contrário, remove o modo escuro
+    inputMode.checked = false; // Desmarca o checkbox
+}
+
+inputMode.addEventListener('click', () => {
+    // Salva o estado do checkbox como 'true' ou 'false' no localStorage
+    localStorage.setItem('mode', inputMode.checked);
+    
+    // Alterna a classe 'dark' de acordo com o estado do checkbox
+    if (inputMode.checked) {
+        documento.classList.add('dark');
+    } else {
+        documento.classList.remove('dark');
     }
 });
+
 
 var nome = documento.querySelector('.inputNome');
 var sobrenome = documento.querySelector('.inputSobrenome');
@@ -165,7 +182,6 @@ function animaScroll() {
         else element.classList.remove(animationClass);
     })
 }
-
 
 document.addEventListener('scroll', (e) => {
     animaScroll();
