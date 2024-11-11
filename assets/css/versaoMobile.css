@@ -69,10 +69,12 @@
             width: 40%;
             height: 19rem;
         }
-        #projetos{
-            margin: 20% 0  0 0;
+
+        #projetos {
+            margin: 20% 0 0 0;
         }
-        .div-proj{
+
+        .div-proj {
             width: 100%;
             height: 100%;
         }
@@ -90,603 +92,620 @@
         .contate-me {
             margin: 4rem auto;
         }
-    }
 
-    @media screen and (max-width: 1107px) {
-        .devWeb {
-            width: 45%;
-        }
-
-        .rigth {
-            height: 100vh;
-        }
-
-        .apresentacao {
-            margin: 18% 10%;
-        }
-
-        .contate-me {
-            width: 69%;
-            /* text-align: center; */
-            margin: 0 16%;
-        }
-
-        .contato {
-            margin-top: 40%;
-        }
-
-        .fotoDois img {
-            width: 40%;
-        }
-
-        footer {
-            margin-top: 15%;
-        }
-
-        .preview {
-            width: 40%;
-        }
-        #projetos{
-            margin: 75% 0;
-        }
-        .div-proj{
-            width: 100%;
+        dialog {
+            opacity: 0;;
         }
     }
 
+}
 
-    @media (max-width: 1042px) {
-        .devWeb {
-            width: 53%;
-            font-size: 0.9em;
-            text-align: center;
-            height: 6vh;
-        }
-
-        .seta {
-            height: 6vh;
-        }
-
+/* @media (max-width: 1199px){
+     
+    } */
+@media screen and (max-width: 1107px) {
+    .devWeb {
+        width: 45%;
+        font-size: 18px;
     }
 
-    @media (max-width: 968px) {
-
-        .habilidade img {
-            width: 100%;
-        }
-
-        .habilidade h4 {
-            font-size: 1em;
-            width: 100%
-        }
-
-        .devWeb {
-            font-size: 0.7em;
-        }
+    .rigth {
+        height: 100vh;
     }
 
-    @media screen and (max-width: 926px) {
-        .devWeb {
-            width: 60%;
-        }
-
-        .apresentacao {
-            margin: 6%;
-        }
-
-        .contate-me {
-            width: 69%;
-            /* text-align: center; */
-            margin: 0 16%;
-        }
-
-        .contato {
-            margin-top: 40%;
-        }
-
-        .fotoDois img {
-            width: 40%;
-        }
-
-        footer {
-            margin-top: 15%;
-        }
-
-        .preview {
-            width: 40%;
-        }
-    }
-    @media (max-width: 958px) {
-        #contato {
-            /* border: solid; */
-            margin: 60% 0;
-        }
-    }
-    @media (max-width: 930px) {
-        .devWeb {
-            width: 65%;
-            text-align: center;
-        }
+    .apresentacao {
+        margin: 18% 10%;
     }
 
-    @media (max-width: 867px) {
-        .devWeb {
-            width: 65%;
-            text-align: center;
-        }
-
-
+    .contate-me {
+        width: 69%;
+        /* text-align: center; */
+        margin: 0 16%;
     }
 
-    .preview img {
+    .contato {
+        margin-top: 40%;
+    }
+
+    .fotoDois img {
+        width: 40%;
+    }
+
+    footer {
+        margin-top: 15%;
+    }
+
+    .preview {
+        width: 40%;
+    }
+
+    #projetos {
+        margin: 75% 0;
+    }
+
+    .div-proj {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1042px) {
+    .devWeb {
+        width: 53%;
+        font-size: 0.9em;
+        text-align: center;
+        height: 6vh;
+    }
+
+    .seta {
+        height: 6vh;
+    }
+
+}
+
+@media (max-width: 968px) {
+
+    .habilidade img {
         width: 100%;
     }
 
-    @media screen and (max-width: 760px) {
-        header {
-            z-index: 1000;
-        }
-
-        dialog {
-            display: none;
-        }
-
-        * {
-            font-size: 10px;
-        }
-
-        .apresentacao {
-            text-align: center;
-            margin: 40% 0 0 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .principal {
-            width: 100%;
-        }
-
-        .img {
-            display: none;
-        }
-
-        .img2 {
-            display: block;
-            width: 47%;
-            height: 45%;
-            padding: 0;
-            margin: 16% 50% 0 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .devWeb {
-            margin: 10% 16%;
-        }
-
-        .img2 img {
-            width: 100%;
-            border: solid 1px #00FFD4;
-        }
-
-        .homePage {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-            & .principal {
-                display: flex;
-                justify-content: center;
-            }
-        }
-
-        .rigth {
-            display: none;
-        }
-
-        .menu {
-            color: brown;
-        }
-
-        .skills {
-
-            & h3,
-            h2 {
-                font-size: 45px;
-            }
-
-            height: 90vh;
-        }
-
-        .frontEnd {
-            display: flex;
-
-            & .habilidade {
-                margin: 2.7rem;
-            }
-
-            & .habilidade img {
-                width: 120%;
-
-            }
-        }
-
-        .backEnd {
-            & h3 {
-
-                text-align: end;
-            }
-
-            & .habilidade img {
-                width: 120%;
-            }
-
-            float: left;
-
-            .skillsBack {
-                justify-content: center;
-            }
-        }
-        .areaProj{
-            /* border: solid; */
-            margin-bottom: 25%;
-            position: absolute;
-            width: 100%;
-        }
-        .div-proj {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-
-            & .preview {
-                width: 80%;
-            }
-
-            & h1 {
-                width: 100%;
-                font-size: 16px;
-            }
-
-            & p {
-                display: none;
-            }
-        }
-
-        .linkNone {
-            display: none;
-        }
-
-        .contate-me {
-            width: 69%;
-            /* text-align: center; */
-            margin: 25% 16%;
-        }
-
-        .contato {
-            margin-top: 40%;
-        }
-
-        .fotoDois img {
-            width: 40%;
-        }
-
+    .habilidade h4 {
+        font-size: 1em;
+        width: 100%
     }
 
-    @media screen and (max-width: 660px) {
-        header {
-            z-index: 1000;
-        }
+    .devWeb {
+        font-size: 0.7em;
+    }
+}
 
-        dialog {
-            display: none;
-        }
-
-        * {
-            font-size: 10px;
-        }
-
-        .apresentacao {
-            text-align: center;
-            margin-top: 40%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .principal {
-            width: 100%;
-        }
-
-        .img {
-            display: none;
-        }
-
-        .img2 {
-            display: block;
-            width: 40%;
-            height: 45%;
-            padding: 0;
-            margin-top: 30%;
-            margin-left: 50%;
-            margin: 20% 50% 0 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .devWeb {
-            margin-top: -10%;
-        }
-
-        .img2 img {
-            width: 100%;
-        }
-
-        .homePage {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-            & .principal {
-                display: flex;
-                justify-content: center;
-            }
-        }
-
-        .rigth {
-            display: none;
-        }
-
-        .menu {
-            color: brown;
-        }
-
-        .skills {
-
-            & h3,
-            h2 {
-                font-size: 45px;
-            }
-
-            height: 90vh;
-        }
-
-        .frontEnd {
-            display: flex;
-
-            & .habilidade {
-                margin: 2.7rem;
-            }
-
-            & .habilidade img {
-                width: 120%;
-
-            }
-        }
-
-        .backEnd {
-            & h3 {
-
-                text-align: end;
-            }
-
-            & .habilidade img {
-                width: 120%;
-            }
-
-            float: left;
-
-            .skillsBack {
-                justify-content: center;
-            }
-        }
-
-        .areaProj {
-            text-align: center;
-            display: flex;
-        }
-
-        .div-proj {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 10%;
-
-            & .preview {
-                width: 80%;
-            }
-
-            & h1 {
-                width: 100%;
-                font-size: 16px;
-            }
-
-            & p {
-                display: none;
-            }
-        }
-
-        .linkNone {
-            display: none;
-        }
-
-        .contate-me {
-            width: 69%;
-            /* text-align: center; */
-            margin: 0 16%;
-        }
-
-        #contato {
-            margin-top: 55rem;
-            
-        }
-
-        .fotoDois img {
-            width: 40%;
-        }
-
+@media screen and (max-width: 926px) {
+    .devWeb {
+        width: 60%;
     }
 
-    @media (max-width: 465px){
-        .img2{
-            margin-top: 30%;
-        }
+    .apresentacao {
+        margin: 6%;
+    }
+
+    .contate-me {
+        width: 69%;
+        /* text-align: center; */
+        margin: 0 16%;
+    }
+
+    .contato {
+        margin-top: 40%;
+    }
+
+    .fotoDois img {
+        width: 40%;
+    }
+
+    footer {
+        margin-top: 15%;
+    }
+
+    .preview {
+        width: 40%;
+    }
+}
+
+@media (max-width: 958px) {
+    #contato {
+        /* border: solid; */
+        margin: 60% 0;
+    }
+}
+
+@media (max-width: 930px) {
+    .devWeb {
+        width: 65%;
+        text-align: center;
+
+    }
+}
+
+@media (max-width: 867px) {
+    .devWeb {
+        width: 65%;
+        text-align: center;
     }
 
 
-    @media screen and (max-width: 390px) {
-        header {
-            z-index: 1000;
-        }
+}
 
-        dialog {
-            display: none;
-        }
+.preview img {
+    width: 100%;
+}
 
-        * {
-            font-size: 10px;
-        }
+@media screen and (max-width: 760px) {
+    header {
+        z-index: 1000;
+    }
 
-        .apresentacao {
-            text-align: center;
-            margin-top: 40%;
+    dialog {
+        display: none;
+    }
+
+    * {
+        font-size: 10px;
+    }
+
+    .apresentacao {
+        text-align: center;
+        margin: 40% 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
+        width: 47%;
+        height: 45%;
+        padding: 0;
+        margin: 16% 50% 0 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .devWeb {
+        margin: 10% 16%;
+    }
+
+    .img2 img {
+        width: 100%;
+        border: solid 1px #00FFD4;
+    }
+
+    .homePage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & .principal {
             display: flex;
-            flex-direction: column;
             justify-content: center;
         }
+    }
 
-        .principal {
-            width: 100%;
+    .rigth {
+        display: none;
+    }
+
+    .menu {
+        color: brown;
+    }
+
+    .skills {
+
+        & h3,
+        h2 {
+            font-size: 45px;
         }
 
-        .img {
-            display: none;
+        height: 90vh;
+    }
+
+    .frontEnd {
+        display: flex;
+
+        & .habilidade {
+            margin: 2.7rem;
         }
 
-        .img2 {
-            display: block;
-            width: 100%;
-            height: 45%;
-            padding: 0;
-            margin-top: 30%;
-            margin-left: 50%;
-            transform: translate(-50%, -50%);
+        & .habilidade img {
+            width: 120%;
+
+        }
+    }
+
+    .backEnd {
+        & h3 {
+
+            text-align: end;
         }
 
-        .devWeb {
-            margin-top: -10%;
+        & .habilidade img {
+            width: 120%;
         }
 
-        .img2 img {
-            border: solid 1px #00FFD4;
-            width: 100%;
-        }
+        float: left;
 
-        .homePage {
-            display: flex;
-            flex-direction: column;
+        .skillsBack {
             justify-content: center;
+        }
+    }
 
-            & .principal {
-                display: flex;
-                justify-content: center;
-            }
+    .areaProj {
+        /* border: solid; */
+        margin-bottom: 25%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .div-proj {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        & .preview {
+            width: 80%;
         }
 
-        .rigth {
+        & h1 {
+            width: 100%;
+            font-size: 16px;
+        }
+
+        & p {
             display: none;
         }
+    }
 
-        .menu {
-            color: brown;
-        }
+    .linkNone {
+        display: none;
+    }
 
-        .skills {
+    .contate-me {
+        width: 69%;
+        /* text-align: center; */
+        margin: 25% 16%;
+    }
 
-            & h3,
-            h2 {
-                font-size: 45px;
-            }
+    .contato {
+        margin-top: 40%;
+    }
 
-            height: 90vh;
-        }
+    .fotoDois img {
+        width: 40%;
+    }
 
-        .frontEnd {
+}
+
+@media screen and (max-width: 660px) {
+    header {
+        z-index: 1000;
+    }
+
+    dialog {
+        display: none;
+    }
+
+    * {
+        font-size: 10px;
+    }
+
+    .apresentacao {
+        text-align: center;
+        margin-top: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
+        width: 40%;
+        height: 45%;
+        padding: 0;
+        margin-top: 30%;
+        margin-left: 50%;
+        margin: 20% 50% 0 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .devWeb {
+        margin-top: -10%;
+    }
+
+    .img2 img {
+        width: 100%;
+    }
+
+    .homePage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & .principal {
             display: flex;
-
-            & .habilidade {
-                margin: 2.7rem;
-            }
-
-            & .habilidade img {
-                width: 120%;
-
-            }
-        }
-
-        .backEnd {
-            & h3 {
-
-                text-align: end;
-            }
-
-            & .habilidade img {
-                width: 120%;
-            }
-
-            float: left;
-
-            .skillsBack {
-                justify-content: center;
-            }
-        }
-
-        .areaProj {
-            text-align: center;
-            display: flex;
-        }
-
-        .div-proj {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
             justify-content: center;
-            align-items: center;
-            margin-bottom: 10%;
+        }
+    }
 
-            & .preview {
-                width: 80%;
-            }
+    .rigth {
+        display: none;
+    }
 
-            & h1 {
-                width: 100%;
-                font-size: 16px;
-            }
+    .menu {
+        color: brown;
+    }
 
-            & p {
-                display: none;
-            }
+    .skills {
+
+        & h3,
+        h2 {
+            font-size: 45px;
         }
 
-        .linkNone {
+        height: 90vh;
+    }
+
+    .frontEnd {
+        display: flex;
+
+        & .habilidade {
+            margin: 2.7rem;
+        }
+
+        & .habilidade img {
+            width: 120%;
+
+        }
+    }
+
+    .backEnd {
+        & h3 {
+
+            text-align: end;
+        }
+
+        & .habilidade img {
+            width: 120%;
+        }
+
+        float: left;
+
+        .skillsBack {
+            justify-content: center;
+        }
+    }
+
+    .areaProj {
+        text-align: center;
+        display: flex;
+    }
+
+    .div-proj {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10%;
+
+        & .preview {
+            width: 80%;
+        }
+
+        & h1 {
+            width: 100%;
+            font-size: 16px;
+        }
+
+        & p {
             display: none;
         }
+    }
 
-        .contate-me {
-            width: 69%;
-            /* text-align: center; */
-            margin: 0 16%;
-        }
+    .linkNone {
+        display: none;
+    }
 
-        .contato {
-            margin-top: 70%;
-        }
+    .contate-me {
+        width: 69%;
+        /* text-align: center; */
+        margin: 0 16%;
+    }
 
-        .fotoDois img {
-            width: 40%;
-        }
+    #contato {
+        margin-top: 55rem;
 
     }
+
+    .fotoDois img {
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 465px) {
+    .img2 {
+        margin-top: 30%;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    header {
+        z-index: 1000;
+    }
+
+    dialog {
+        display: none;
+    }
+
+    * {
+        font-size: 10px;
+    }
+
+    .apresentacao {
+        text-align: center;
+        margin-top: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
+        width: 100%;
+        height: 45%;
+        padding: 0;
+        margin-top: 30%;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .devWeb {
+        margin-top: -10%;
+        font-size: 12px;
+    }
+
+    .img2 img {
+        border: solid 1px #00FFD4;
+        width: 100%;
+    }
+
+    .homePage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & .principal {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .rigth {
+        display: none;
+    }
+
+    .menu {
+        color: brown;
+    }
+
+    .skills {
+
+        & h3,
+        h2 {
+            font-size: 45px;
+        }
+
+        height: 90vh;
+    }
+
+    .frontEnd {
+        display: flex;
+
+        & .habilidade {
+            margin: 2.7rem;
+        }
+
+        & .habilidade img {
+            width: 120%;
+
+        }
+    }
+
+    .backEnd {
+        & h3 {
+
+            text-align: end;
+        }
+
+        & .habilidade img {
+            width: 120%;
+        }
+
+        float: left;
+
+        .skillsBack {
+            justify-content: center;
+        }
+    }
+
+    .areaProj {
+        text-align: center;
+        display: flex;
+    }
+
+    .div-proj {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10%;
+
+        & .preview {
+            width: 80%;
+        }
+
+        & h1 {
+            width: 100%;
+            font-size: 16px;
+        }
+
+        & p {
+            display: none;
+        }
+    }
+
+    .linkNone {
+        display: none;
+    }
+
+    .contate-me {
+        width: 69%;
+        /* text-align: center; */
+        margin: 0 16%;
+    }
+
+    .contato {
+        margin-top: 70%;
+    }
+
+    .fotoDois img {
+        width: 40%;
+    }
+
 }
